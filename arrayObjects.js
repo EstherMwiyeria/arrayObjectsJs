@@ -69,12 +69,11 @@ function sortEmployees(name) {
    
     return sortedEmployees;
   }
-  // Example usage
   const name = [
-    { id: 1, name: "John", salary: 2500 },
-    { id: 2, name: "Emily", salary: 3000 },
-    { id: 3, name: "David", salary: 2000 },
-    { id: 4, name: "Sarah", salary: 3500 }
+    { id: 1, name: "Diana", salary: 2500 },
+    { id: 2, name: "Ess", salary: 3000 },
+    { id: 3, name: "Drake", salary: 2000 },
+    { id: 4, name: "Mary", salary: 3500 }
   ];
   const sortedEmployees = sortEmployees(name);
   console.log(sortedEmployees);
